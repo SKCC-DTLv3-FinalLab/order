@@ -68,7 +68,7 @@ phases:
                 maxSurge: 2
                 maxUnavailable: 20%
               type: RollingUpdate
-            replicas: 5
+            replicas: 1
             selector:
               matchLabels:
                 app: $_PROJECT_NAME
